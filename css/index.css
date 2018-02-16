@@ -1,0 +1,151 @@
+.hero-image-wrapper {
+    width: 100%;
+    height: 90%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: url("../assets/hero-image.jpg") no-repeat;
+    background-size: contain;
+}
+
+.hero-app-name {
+    width: 50%;
+    height: 60%;
+    background: url("../assets/logo.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.hero-contents {
+    margin-left: 10%;
+    height: 60%;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 40%;
+}
+
+.hero-message-wrapper {
+    margin-top: 5%;
+    width: 55%;
+}
+
+.hero-mock {
+    width: 35%;
+    height: 130%;
+    background: url("../assets/iphone-mock.png") no-repeat;
+    background-size: contain;
+}
+
+.hero-message {
+    width: 60%;
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.hero-button {
+    padding: 15px 15px;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+}
+
+.hero-button span {
+    font-size: 1.1rem;
+    color: lightgray;
+    width: 4.4rem;
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+.hero-button-2 {
+    padding: 15px 15px;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: gray;
+}
+
+.hero-button-2 span {
+    font-size: 1.1rem;
+    color: lightgray;
+    width: 4.4rem;
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+@media screen and (max-width: 1160px) {
+    .hero-image {
+        background-size: cover;
+    }
+
+    .hero-image-wrapper {
+        height: 60%;
+    }
+
+    .hero-mock {
+        display: none;
+    }
+
+    .hero-app-name {
+        width: 70%;
+        height: 20%;
+        left: 15%;
+    }
+
+    .hero-contents {
+        margin: 0;
+        top: 25%;
+        height: 30%;
+    }
+
+    .hero-message-wrapper {
+        margin: 0 auto;
+    }
+
+    .hero-message {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1160px) {
+    .hero-contents {
+        top: 40%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 911px) {
+    .hero-app-name {
+        top: 15%;
+    }
+}
+
+.what-i-can {
+    padding-top: 10%;
+}
+
+.how-to-icon {
+    width: 5rem;
+}
+
+.how-to-icon path {
+    color: orange;
+}
+
+@media screen and (max-width: 511px) {
+    .what-i-can {
+        padding-top: 20%;
+    }
+}
+
+.how-to-use-item {
+    width: 5rem;
+}
